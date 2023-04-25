@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c92926750c35472a82968c4413140b12" Name="Diagram1">
+        <EntityTypeShape EntityType="DbSinavOgrenciModel.ders" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbSinavOgrenciModel.ogrenci" Width="1.5" PointX="6.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbSinavOgrenciModel.kulup" Width="1.5" PointX="0.75" PointY="4.75" />
+        <EntityTypeShape EntityType="DbSinavOgrenciModel.notlar" Width="1.5" PointX="3.75" PointY="1.375" />
+        <AssociationConnector Association="DbSinavOgrenciModel.FK_not_ders1" />
+        <AssociationConnector Association="DbSinavOgrenciModel.FK_not_ogrenci1" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
